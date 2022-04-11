@@ -55,3 +55,4 @@ gen huts2 = 1 if dwtype == 6
 replace huts = 0 if dwtype != 6 & dwtype !=.
 gen other = (dwtype !=1 & dwtype !=2 & dwtype !=3 & dwtype !=4 & dwtype !=5 & dwtype !=6 &dwtype!=.)
 regress robbed apart
+log close
